@@ -1,2 +1,6 @@
 ---
 # tasks file for role-test
+
+- name: Point d'entrée
+  debug:
+    msg: Je suis dans le rôle ansible-role-test
